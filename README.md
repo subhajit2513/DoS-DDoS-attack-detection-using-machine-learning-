@@ -7,6 +7,8 @@
 
 A collaborative research project aimed at detecting Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) attacks using machine learning and deep learning models on real-world network traffic datasets. The system integrates traditional ML models, transformer-based deep learning, and real-time packet analysis using tools like Wireshark and the Elastic Stack.
 
+# Created_By
+KUNAL DHIBAR & SUBHAJIT DAS
 ---
 
 ## 🧠 Project Overview
