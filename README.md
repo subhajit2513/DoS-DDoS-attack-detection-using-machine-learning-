@@ -7,8 +7,6 @@
 
 A collaborative research project aimed at detecting Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) attacks using machine learning and deep learning models on real-world network traffic datasets. The system integrates traditional ML models, transformer-based deep learning, and real-time packet analysis using tools like Wireshark and the Elastic Stack.
 
-# Created_By
-KUNAL DHIBAR & SUBHAJIT DAS
 ---
 
 ## 🧠 Project Overview
@@ -76,13 +74,33 @@ DoS/DDoS attacks are among the most disruptive cyber threats, targeting network 
 
 ---
 
-## 🧪 System Architecture
++--------------------+
+| Packet Capture     |
+| (tcpdump / Zeek)   |
++--------------------+
+          ↓
++--------------------+
+| Flow Generator     |
+| (Zeek / CICFlow)   |
++--------------------+
+          ↓
++--------------------+
+| Feature Engineering|
+| (Python / Pandas)  |
++--------------------+
+          ↓
++--------------------+
+| ML Inference       |
+| (RF / SVM)         |
++--------------------+
+          ↓
++--------------------+
+| Alerting & Dashboards |
+| (ELK + Flask API)  |
++--------------------+
 
-+----------------+ +-----------------+ +------------------+
-| Wireshark/PCAP | -----> | ML Classifier | -----> | Alert/Visualization |
-+----------------+ +-----------------+ +------------------+
-Packet Capture Random Forest/SVM ELK Stack + Flask
-
+# Created_By
+KUNAL DHIBAR & SUBHAJIT DAS
 ---
 
 
