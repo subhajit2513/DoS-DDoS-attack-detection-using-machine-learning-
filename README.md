@@ -1,9 +1,9 @@
 # Final_Year_Project--DoS-DDoS-attack-detection-using-machine-learning-
 # 🚨 DoS/DDoS Attack Detection Using Machine Learning
 
-**Final Year B.Tech Project**  
-**Department of CSE (Cyber Security)**  
-**Haldia Institute of Technology, 2025**
+**Internship Project at NIELIT Kolkata**  
+**Department of Computer Science and Technology (MCA)**  
+**Javapur University, 2025**
 
 A collaborative research project aimed at detecting Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) attacks using machine learning and deep learning models on real-world network traffic datasets. The system integrates traditional ML models, transformer-based deep learning, and real-time packet analysis using tools like Wireshark and the Elastic Stack.
 
